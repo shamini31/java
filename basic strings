@@ -1,0 +1,23 @@
+package day6;
+import java.lang.String;
+public class string {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str= "sham";
+		String str1= "sara";
+		String str2= new String ("vino");
+		String str3= new String ("jan");
+		System.out.println(str1);
+		System.out.println(str1);
+		System.out.println(str==str3);
+		System.out.println(str.trim());
+		System.out.println(str1.trim().length());
+		System.out.println(str3.concat("keerthi"));
+		System.out.println(str.equalsIgnoreCase(str1));
+		System.out.println(str2.contains("san"));
+		
+
+	}
+
+}
