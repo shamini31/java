@@ -1,0 +1,35 @@
+package day6;
+
+import java.util.Scanner;
+
+public class arrays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int size= sc.nextInt();
+		int arr[]= new int[size];
+		int sum=0;
+		for(int i=0;i<arr.length;i++)
+		{
+			System.out.println("victory in the number quest duel");
+		}
+		int start= sc.nextInt();
+		int end= sc.nextInt();
+		int evencount=0;
+		for(int i=start;i<=end;i++)
+		{
+			if(i%2==0)
+			{
+				evencount++;
+				{
+					System.out.println("sum of odd numbers + sum of even numbers");
+				}
+			}
+		}
+		
+			
+				
+			{
+				
+		
