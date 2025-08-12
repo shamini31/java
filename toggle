@@ -1,0 +1,23 @@
+package day6;
+
+public class toggle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 String input = "Hello";
+	        StringBuilder output = new StringBuilder();
+
+	        for (char ch : input.toCharArray()) {
+	            if (Character.isUpperCase(ch)) {
+	                output.append(Character.toLowerCase(ch));
+	            } else if (Character.isLowerCase(ch)) {
+	                output.append(Character.toUpperCase(ch));
+	            } else {
+	                output.append(ch); 
+	            }
+	        }
+
+	        System.out.println(output.toString());
+	}
+}
+
