@@ -1,0 +1,15 @@
+package day6;
+import java.lang.String;
+public class world {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str ="Whispers in the Cosmic Wind";
+		String str1= new String("The cosmic resonance of your phase unfolds:" + str);
+		System.out.println(str1);
+	}
+}
+
+		
+
+
