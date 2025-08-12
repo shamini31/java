@@ -1,0 +1,17 @@
+package day6;
+
+public class arg2 {
+	public void display()
+	{
+		String name= "Sham";
+		return name;
+	}
+	public static void main(String []args) {
+		arg2 obj=new arg2();
+		String res= obj.display();
+		System.out.println(res);
+		
+	
+
+	
+	}
